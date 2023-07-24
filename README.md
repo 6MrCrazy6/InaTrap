@@ -1,4 +1,4 @@
-# CasualGame
+# In a Trap
 A simple puzzle where you need to bring the main cube to the exit using other cubes (green/blue cubes). Now in Game 16 levels standart and 1 level troll
 
 ![photo_4_2023-07-24_12-23-43](https://github.com/6MrCrazy6/InaTrap/assets/117535858/c6c799f2-eb52-483b-8203-0040c5fe075b)
