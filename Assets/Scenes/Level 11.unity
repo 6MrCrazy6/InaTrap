@@ -3065,7 +3065,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1139202931}
   - component: {fileID: 1139202930}
-  - component: {fileID: 1139202929}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3073,14 +3072,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1139202929
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139202928}
-  m_Enabled: 1
 --- !u!20 &1139202930
 Camera:
   m_ObjectHideFlags: 0
@@ -3337,7 +3328,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0, z: 0}
+  cube: {x: 0, y: 0, z: 0}
   ad: {fileID: 2059109318}
+  firstPart: {fileID: 0}
+  secondPart: {fileID: 0}
 --- !u!1001 &1344420852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3804,7 +3798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5442787825887252042, guid: d65299039f275ee4db180be668b7dd4b, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Cube
       objectReference: {fileID: 0}
     - target: {fileID: 5442787825887252044, guid: d65299039f275ee4db180be668b7dd4b, type: 3}
       propertyPath: m_RootOrder
